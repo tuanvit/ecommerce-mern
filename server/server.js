@@ -30,7 +30,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-      origin: "https://ecommerce-mern-x8ip-frontend.vercel.app",
+      origin: "http://marbracelet.io.vn",
       methods: ["GET", "POST", "DELETE", "PUT"],
       allowedHeaders: [
           "Content-Type",
