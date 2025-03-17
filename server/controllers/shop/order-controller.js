@@ -26,8 +26,8 @@ const createOrder = async (req, res) => {
         payment_method: "paypal",
       },
       redirect_urls: {
-        return_url: "http://localhost:5173/shop/paypal-return",
-        cancel_url: "http://localhost:5173/shop/paypal-cancel",
+        return_url: "https://ecommerce-mern-x8i-git-a51f76-nguyentuanviets-projects-70c74621.vercel.app/shop/paypal-return",
+        cancel_url: "https://ecommerce-mern-x8i-git-a51f76-nguyentuanviets-projects-70c74621.vercel.app/paypal-cancel",
       },
       transactions: [
         {
